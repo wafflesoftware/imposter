@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2474C45C169F7A0D00E195AB /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2474C45B169F7A0D00E195AB /* ScriptingBridge.framework */; };
+		2474C45F169F862100E195AB /* yuno.png in Resources */ = {isa = PBXBuildFile; fileRef = 2474C45E169F862100E195AB /* yuno.png */; };
+		2474C461169F8E7B00E195AB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2474C460169F8E7B00E195AB /* LICENSE */; };
 		24FEAAF3169E198E00DAFE3B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FEAAF2169E198E00DAFE3B /* Cocoa.framework */; };
 		24FEAAFD169E198E00DAFE3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24FEAAFB169E198E00DAFE3B /* InfoPlist.strings */; };
 		24FEAAFF169E198E00DAFE3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FEAAFE169E198E00DAFE3B /* main.m */; };
 		24FEAB03169E198E00DAFE3B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 24FEAB01169E198E00DAFE3B /* Credits.rtf */; };
 		24FEAB06169E198E00DAFE3B /* WFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FEAB05169E198E00DAFE3B /* WFAppDelegate.m */; };
 		24FEAB09169E198E00DAFE3B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24FEAB07169E198E00DAFE3B /* MainMenu.xib */; };
+		24FEAB11169E19FC00DAFE3B /* WFImposterWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FEAB10169E19FC00DAFE3B /* WFImposterWindowController.m */; };
+		24FEAB14169E1AA400DAFE3B /* WFImposterAssembler.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FEAB13169E1AA400DAFE3B /* WFImposterAssembler.m */; };
+		24FEAB17169E1ACC00DAFE3B /* WFImposterExcavator.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FEAB16169E1ACC00DAFE3B /* WFImposterExcavator.m */; };
+		24FEAB1A169E1D7900DAFE3B /* WFMarkov.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FEAB19169E1D7900DAFE3B /* WFMarkov.m */; };
+		24FEAB1C169E2C2700DAFE3B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FEAB1B169E2C2700DAFE3B /* WebKit.framework */; };
+		24FEAB1E169E365C00DAFE3B /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FEAB1D169E365C00DAFE3B /* CoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2474C45B169F7A0D00E195AB /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
+		2474C45D169F7AC000E195AB /* Adium.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adium.h; sourceTree = SOURCE_ROOT; };
+		2474C45E169F862100E195AB /* yuno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuno.png; sourceTree = "<group>"; };
+		2474C460169F8E7B00E195AB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		24FEAAEF169E198E00DAFE3B /* Imposter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Imposter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24FEAAF2169E198E00DAFE3B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		24FEAAF5169E198E00DAFE3B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -29,6 +42,16 @@
 		24FEAB04169E198E00DAFE3B /* WFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFAppDelegate.h; sourceTree = "<group>"; };
 		24FEAB05169E198E00DAFE3B /* WFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFAppDelegate.m; sourceTree = "<group>"; };
 		24FEAB08169E198E00DAFE3B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		24FEAB0F169E19FC00DAFE3B /* WFImposterWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFImposterWindowController.h; sourceTree = "<group>"; };
+		24FEAB10169E19FC00DAFE3B /* WFImposterWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFImposterWindowController.m; sourceTree = "<group>"; };
+		24FEAB12169E1AA400DAFE3B /* WFImposterAssembler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFImposterAssembler.h; sourceTree = "<group>"; };
+		24FEAB13169E1AA400DAFE3B /* WFImposterAssembler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFImposterAssembler.m; sourceTree = "<group>"; };
+		24FEAB15169E1ACC00DAFE3B /* WFImposterExcavator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFImposterExcavator.h; sourceTree = "<group>"; };
+		24FEAB16169E1ACC00DAFE3B /* WFImposterExcavator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFImposterExcavator.m; sourceTree = "<group>"; };
+		24FEAB18169E1D7900DAFE3B /* WFMarkov.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFMarkov.h; sourceTree = "<group>"; };
+		24FEAB19169E1D7900DAFE3B /* WFMarkov.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFMarkov.m; sourceTree = "<group>"; };
+		24FEAB1B169E2C2700DAFE3B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		24FEAB1D169E365C00DAFE3B /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +59,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2474C45C169F7A0D00E195AB /* ScriptingBridge.framework in Frameworks */,
+				24FEAB1E169E365C00DAFE3B /* CoreServices.framework in Frameworks */,
+				24FEAB1C169E2C2700DAFE3B /* WebKit.framework in Frameworks */,
 				24FEAAF3169E198E00DAFE3B /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +72,9 @@
 		24FEAAE6169E198E00DAFE3B = {
 			isa = PBXGroup;
 			children = (
+				2474C45B169F7A0D00E195AB /* ScriptingBridge.framework */,
+				24FEAB1D169E365C00DAFE3B /* CoreServices.framework */,
+				24FEAB1B169E2C2700DAFE3B /* WebKit.framework */,
 				24FEAAF8169E198E00DAFE3B /* Imposter */,
 				24FEAAF1169E198E00DAFE3B /* Frameworks */,
 				24FEAAF0169E198E00DAFE3B /* Products */,
@@ -82,10 +111,20 @@
 		24FEAAF8169E198E00DAFE3B /* Imposter */ = {
 			isa = PBXGroup;
 			children = (
+				2474C45D169F7AC000E195AB /* Adium.h */,
 				24FEAB04169E198E00DAFE3B /* WFAppDelegate.h */,
 				24FEAB05169E198E00DAFE3B /* WFAppDelegate.m */,
 				24FEAB07169E198E00DAFE3B /* MainMenu.xib */,
 				24FEAAF9169E198E00DAFE3B /* Supporting Files */,
+				24FEAB0F169E19FC00DAFE3B /* WFImposterWindowController.h */,
+				24FEAB10169E19FC00DAFE3B /* WFImposterWindowController.m */,
+				24FEAB12169E1AA400DAFE3B /* WFImposterAssembler.h */,
+				24FEAB13169E1AA400DAFE3B /* WFImposterAssembler.m */,
+				24FEAB15169E1ACC00DAFE3B /* WFImposterExcavator.h */,
+				24FEAB16169E1ACC00DAFE3B /* WFImposterExcavator.m */,
+				24FEAB18169E1D7900DAFE3B /* WFMarkov.h */,
+				24FEAB19169E1D7900DAFE3B /* WFMarkov.m */,
+				2474C460169F8E7B00E195AB /* LICENSE */,
 			);
 			path = Imposter;
 			sourceTree = "<group>";
@@ -93,6 +132,7 @@
 		24FEAAF9169E198E00DAFE3B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2474C45E169F862100E195AB /* yuno.png */,
 				24FEAAFA169E198E00DAFE3B /* Imposter-Info.plist */,
 				24FEAAFB169E198E00DAFE3B /* InfoPlist.strings */,
 				24FEAAFE169E198E00DAFE3B /* main.m */,
@@ -157,6 +197,8 @@
 				24FEAAFD169E198E00DAFE3B /* InfoPlist.strings in Resources */,
 				24FEAB03169E198E00DAFE3B /* Credits.rtf in Resources */,
 				24FEAB09169E198E00DAFE3B /* MainMenu.xib in Resources */,
+				2474C45F169F862100E195AB /* yuno.png in Resources */,
+				2474C461169F8E7B00E195AB /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +211,10 @@
 			files = (
 				24FEAAFF169E198E00DAFE3B /* main.m in Sources */,
 				24FEAB06169E198E00DAFE3B /* WFAppDelegate.m in Sources */,
+				24FEAB11169E19FC00DAFE3B /* WFImposterWindowController.m in Sources */,
+				24FEAB14169E1AA400DAFE3B /* WFImposterAssembler.m in Sources */,
+				24FEAB17169E1ACC00DAFE3B /* WFImposterExcavator.m in Sources */,
+				24FEAB1A169E1D7900DAFE3B /* WFMarkov.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +350,7 @@
 				24FEAB0E169E198E00DAFE3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

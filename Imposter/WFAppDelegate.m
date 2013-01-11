@@ -7,12 +7,21 @@
 //
 
 #import "WFAppDelegate.h"
+#import "WFMarkov.h"
+#import "Adium.h"
+
+#import "WFImposterWindowController.h"
 
 @implementation WFAppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
-{
-    // Insert code here to initialize your application
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+    AdiumApplication *adiumApplication = [SBApplication applicationWithBundleIdentifier:@"com.adiumX.adiumX"];
+    if (adiumApplication == nil) {
+        [self.noSupportWindow makeKeyAndOrderFront:self];
+    } else {
+        [self.imposterWindowController start];
+    }
 }
+
 
 @end
