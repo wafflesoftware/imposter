@@ -11,9 +11,6 @@
 @class WFImposterWindowController;
 
 @interface WFAppDelegate : NSObject <NSApplicationDelegate>
-
 @property (assign) IBOutlet WFImposterWindowController *imposterWindowController;
 @property (assign) IBOutlet NSWindow *noSupportWindow;
-
-+ (BOOL)isItAnyIdea;
 @end
