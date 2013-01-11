@@ -1,7 +1,9 @@
 # Imposter
 ## Those who repeat history won't soon forget it
 
-Imposter finds a bunch of your Adium chat logs, picks the people you have talked to enough (they have said more than 100 messages) and generates putative messages from them based on Markov chain analysis on their previous messages.
+Imposter finds a bunch of your Adium chat logs, picks the people you have talked to enough (they have sent you more than 100 messages) and generates putative messages from them based on Markov chain analysis on their previous messages.
+
+See also: [the Imposter site](http://wafflesoftware.net/imposter/).
 
 ## wat
 
