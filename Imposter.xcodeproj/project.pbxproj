@@ -27,10 +27,10 @@
 
 /* Begin PBXFileReference section */
 		2474C45B169F7A0D00E195AB /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
-		2474C45D169F7AC000E195AB /* Adium.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adium.h; sourceTree = SOURCE_ROOT; };
 		2474C45E169F862100E195AB /* yuno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuno.png; sourceTree = "<group>"; };
 		2474C460169F8E7B00E195AB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2474C462169F933100E195AB /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
+		2474C464169F9A7D00E195AB /* Adium.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adium.h; sourceTree = "<group>"; };
 		24FEAAEF169E198E00DAFE3B /* Imposter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Imposter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24FEAAF2169E198E00DAFE3B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		24FEAAF5169E198E00DAFE3B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -114,7 +114,7 @@
 		24FEAAF8169E198E00DAFE3B /* Imposter */ = {
 			isa = PBXGroup;
 			children = (
-				2474C45D169F7AC000E195AB /* Adium.h */,
+				2474C464169F9A7D00E195AB /* Adium.h */,
 				24FEAB04169E198E00DAFE3B /* WFAppDelegate.h */,
 				24FEAB05169E198E00DAFE3B /* WFAppDelegate.m */,
 				24FEAB07169E198E00DAFE3B /* MainMenu.xib */,
