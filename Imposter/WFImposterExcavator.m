@@ -85,29 +85,20 @@
 - (void)initalGatherComplete:(NSNotification *)noti {
     
     NSMetadataQuery *search = self.currentSearch;
-    
-    // Stop the query, the single pass is completed.
     [search stopQuery];
-    
-    // Process the content. In this case the application simply
-    // iterates over the content, printing the display name key for
-    // each image
-    NSUInteger limit = 1900;
+
+    NSUInteger limit = 2500; // do not use ALL the memory
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         NSUInteger i=0;
         for (i=0; i < limit; i++) {
             NSMetadataItem *theResult = [search resultAtIndex:i];
             NSString *path = [theResult valueForAttribute:NSMetadataItemPathKey];
             [self excavateLogAtPath:path];
-//            NSLog(@"result at %lu - %@", i, path);
             
         }
     
     [self.delegate excavatorFinished:self];
     
-    // Remove the notifications to clean up after ourselves.
-    // Also release the metadataQuery.
-    // When the Query is removed the query results are also lost.
     [[NSNotificationCenter defaultCenter] removeObserver:self
                                                     name:NSMetadataQueryDidUpdateNotification
                                                   object:search];

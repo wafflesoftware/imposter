@@ -93,6 +93,14 @@ static NSString *kvoContext = @"gdjskggj";
 }
 
 - (void)start {
+    
+    WebPreferences *prefs = [[WebPreferences alloc] initWithIdentifier:@"WFImposter"];
+
+    [prefs setFixedFontFamily:@"Cochin"];
+    [prefs setDefaultFixedFontSize:19];
+
+    [self.webView setPreferences:prefs];
+    
     self.chainLength = @3;
     self.wordCount = @200;
     

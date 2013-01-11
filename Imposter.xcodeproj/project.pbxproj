@@ -10,6 +10,7 @@
 		2474C45C169F7A0D00E195AB /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2474C45B169F7A0D00E195AB /* ScriptingBridge.framework */; };
 		2474C45F169F862100E195AB /* yuno.png in Resources */ = {isa = PBXBuildFile; fileRef = 2474C45E169F862100E195AB /* yuno.png */; };
 		2474C461169F8E7B00E195AB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2474C460169F8E7B00E195AB /* LICENSE */; };
+		2474C463169F933100E195AB /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 2474C462169F933100E195AB /* readme.md */; };
 		24FEAAF3169E198E00DAFE3B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FEAAF2169E198E00DAFE3B /* Cocoa.framework */; };
 		24FEAAFD169E198E00DAFE3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24FEAAFB169E198E00DAFE3B /* InfoPlist.strings */; };
 		24FEAAFF169E198E00DAFE3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FEAAFE169E198E00DAFE3B /* main.m */; };
@@ -29,6 +30,7 @@
 		2474C45D169F7AC000E195AB /* Adium.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adium.h; sourceTree = SOURCE_ROOT; };
 		2474C45E169F862100E195AB /* yuno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuno.png; sourceTree = "<group>"; };
 		2474C460169F8E7B00E195AB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2474C462169F933100E195AB /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
 		24FEAAEF169E198E00DAFE3B /* Imposter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Imposter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24FEAAF2169E198E00DAFE3B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		24FEAAF5169E198E00DAFE3B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -72,6 +74,7 @@
 		24FEAAE6169E198E00DAFE3B = {
 			isa = PBXGroup;
 			children = (
+				2474C462169F933100E195AB /* readme.md */,
 				2474C45B169F7A0D00E195AB /* ScriptingBridge.framework */,
 				24FEAB1D169E365C00DAFE3B /* CoreServices.framework */,
 				24FEAB1B169E2C2700DAFE3B /* WebKit.framework */,
@@ -199,6 +202,7 @@
 				24FEAB09169E198E00DAFE3B /* MainMenu.xib in Resources */,
 				2474C45F169F862100E195AB /* yuno.png in Resources */,
 				2474C461169F8E7B00E195AB /* LICENSE in Resources */,
+				2474C463169F933100E195AB /* readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
